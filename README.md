@@ -8,11 +8,11 @@ Usage:
 	package main
 	import (
 		"fmt"
+		"github.com/vibbix/GoIpsum"
 	)
 	func main() {
-		var GI GenerationInfo = GenerationInfo.PARAGRAPH
 		
-		fmt.Println("Paragraph: ", CreateText(GI))
+		fmt.Println("Paragraph: ", GoIpsum.CreateText(GoIpsum.GenerationInfo.PARAGRAPH))
 		//Example Output:
 		//Paragraph:  	 Aliquet sed sed lorem pharetranibh. 
 		//In vel tristique tempor diam,vestibulum. Donec imperdiet massa mattis 
